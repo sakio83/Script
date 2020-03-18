@@ -9,7 +9,7 @@ var flg = true;
 //folder opeartion
 var folder_root = Folder.selectDialog();
 var folder = new Folder(folder_root.fsName+"/"+appname+"_App_2.2");
-var exportFolder_iOS = new Folder(folder.fsName+"/2.IOS");
+var exportFolder_iOS = new Folder(folder.fsName+"/2.iOS");
 var exportFolder_Android = new Folder(folder.fsName+"/3.Android");
 var exportFolder_Adaptive = new Folder(folder.fsName+"/4.Adaptive");
 var exportFolder_PWA = new Folder(folder.fsName+"/5.PWA");
